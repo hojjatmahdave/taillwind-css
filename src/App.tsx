@@ -1,5 +1,11 @@
+import Thanks from "./components/pages/thanks/thank";
+
 const App = () => {
-  return <div>blabla bla</div>;
+  return (
+    <div>
+      <Thanks />
+    </div>
+  );
 };
 
 export default App;
